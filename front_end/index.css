@@ -1,0 +1,144 @@
+
+
+
+/* --------------- Overall styling --------------*/
+
+::selection {
+  background: #D00E5C; 
+  color: white;
+}
+
+body {
+  background-color: white;
+
+}
+
+/* ---------------------- Site masked---header ------------------------------ */
+
+
+h1 {
+  font: 65px 'refrigerator-deluxe', sans-serif;
+  line-height: 2;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 01px;
+}
+
+.masked{
+  background: url(http://i.kinja-img.com/gawker-media/image/upload/s--29LGnb6M--/c_fit,fl_progressive,q_80,w_636/zuyliqtt93tjz0d3mxcp.jpg) repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation-name: masked-animation;
+  -webkit-animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes masked-animation {
+  0% {background-position: left bottom;}
+  100% {background-position: right bottom;}
+}
+
+
+
+h2 {
+  text-align: left;
+  color: #220f28;
+  font: normal normal 15px 'refrigerator-deluxe', sans-serif; 
+  letter-spacing: 03px;
+}
+
+/* ----------------- Nav -----------------*/
+
+.nav a{
+  text-decoration: none;
+  color: #1E4256;
+  font: normal normal lighter 13px 'refrigerator-deluxe', sans-serif; 
+}
+
+.nav a:hover{
+  color: #D00E5C;
+}
+
+.nav a:visited {
+  color: #D00E5C;
+}
+
+
+
+/* ------------------Floater Footer ----------------------*/
+
+
+#contact_floater a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact_floater a:visited {
+  color: #D00E5C;
+}
+
+#contact_floater a:hover {
+  color: #D00E5C;
+}
+
+#contact_floater {
+    
+  display: inline;
+  list-style-type: none;
+  position: fixed;
+  bottom: 25px;
+  left: 5px;
+  color: black;
+  font: normal normal lighter 12px 'refrigerator-deluxe', sans-serif; 
+}
+
+
+.right a {
+  text-decoration: none;
+  color: black;
+}
+
+.right a:visited {
+  color: #D00E5C;
+}
+
+.right {
+    display: inline;
+    list-style-type: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+/* ------------------ Footer ----------------------*/
+
+
+#copy_right {
+  border-top: 02px solid #291230;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: black; 
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 05px;
+  left: 0;
+  font: normal normal lighter 15px 'refrigerator-deluxe', sans-serif;
+  color: white;
+}
+
+
+
+#copy_right a {
+  text-decoration: none;
+  color: white;
+}
+
+#copy_right a:visited {
+  color: white;
+}
+
+#copy_right a:hover {
+  color: #D00E5C;
+}
