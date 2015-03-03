@@ -1,0 +1,61 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ /*
+ *= require font-awesome
+ */
+
+html {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+body {
+background: image-url("tour_landscape.jpg") no-repeat center center fixed;
+-webkit-brackground-size: cover;
+background-size: cover;
+-moz-background-size: cover;
+}
+
+#footer {
+  border-top: 02px solid #FABB00;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #171717;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  left: 0;
+  font-family: 'Archivo Narrow', sans-serif;
+  color: white;
+  font-size: 1em;
+
+  
+
+   a {
+  text-decoration: none;
+  color: white;
+
+   :visited {
+  color: white;
+}
+ :hover {
+   color: #FABB00;
+    }
+  }
+}
+
